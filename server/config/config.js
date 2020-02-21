@@ -41,3 +41,10 @@ let urlDB;
 // }
 
 process.env.URLDB = urlDB;
+
+
+// =====================
+// Google Client Id
+// =====================
+
+process.env.CLIENT_ID = process.env.CLIENT_ID || '189003038333-brvdfeaefsta0qmc6nvglfq94b4qsqiu.apps.googleusercontent.com'
